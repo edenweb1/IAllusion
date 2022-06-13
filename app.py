@@ -858,7 +858,7 @@ with col_output2:
             )
     else:
         st.write(
-            f'<div class="bottom-line"><div class="row-widget stButton"><button disabled kind="primary" class="css-1q8dd3e edgvbvh1">No gallery found. Rerun Colab and connect to Drive to save pieces in a gallery</button></div><small>We <b>do not collect prompts or results</b>. Your creations don\'t belong to MindsEye. Read our <a href="https://multimodal.art/mindseye#f-a-q" target="_blank">FAQ</a>.<br>Feel free to reference #MindsEye and tag <a href="https://multimodal.art/multimodalart" target="_blank">@multimodalart</a> when sharing your creations if you wish</small></div>',
+            f'<div class="bottom-line"><div class="row-widget stButton"><button disabled kind="primary" class="css-1q8dd3e edgvbvh1">No gallery found. Rerun Colab and connect to Drive to save pieces in a gallery</button></div></div>',
             unsafe_allow_html=True,
         )
         
