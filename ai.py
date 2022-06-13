@@ -78,8 +78,7 @@ CLIP and Diffusion were released by OpenAI. VQGAN by CompVis Heidelberg</small>
 
 #@markdown ---
 import subprocess
-sub_p_res = subprocess.run(['nvidia-sm'], stdout=subprocess.PIPE).stdout.decode('utf-8') #<cc-cm>
-print(sub_p_res) #<cc-cm>
+
 
 
 # %%
