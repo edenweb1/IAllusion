@@ -101,7 +101,7 @@ class DefaultPaths:
         output_path = f"{root_path}/outputs"
     else:
         is_drive = True
-        drive_path = f"/content/drive/MyDrive/IALlusion"
+        drive_path = f"/content/drive/MyDrive/IAllusion"
         model_path = f"{drive_path}/models"
         output_path = f"{drive_path}/outputs"
 
