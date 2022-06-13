@@ -110,7 +110,7 @@ initial_load = st.empty()
 initial_load.empty()
 
 st.write(
-    "<h2>MindsEye beta <small>ai art generator by <a href='https://twitter.com/multimodalart' target='_blank'>@multimodalart</a></small></h2>",
+    "<h2>IALLUSION <small>AI art assistant </small></h2>",
     unsafe_allow_html=True,
 )
 
@@ -874,9 +874,8 @@ with col_output2:
     
 footer = """
 <div class="footer">
-<p>MindsEye beta by <b><a href="https://twitter.com/multimodalart">@multimodalart</a></b><br>
-<small><a href="https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb" target="_blank">Disco Diffusion v5</a> model by <a href="https://twitter.com/somnai_dreams" target="_blank">@somnai_dreams</a> and <a href="https://twitter.com/gandamu" target="_blank">@gandamu</a>, based on the foundational work of <a href="https://twitter.com/RiversHaveWings">@RiversHaveWings</a>, with modifications by <a href="https://twitter.com/danielrussruss" target="_blank">@danielrussruss</a>, <a href="https://github.com/Dango233" target="_blank">Dango233</a>, <a href="https://twitter.com/chigozienri">Chigozie Nri</a>, <a href="https://twitter.com/softologyComAu" target="_blank">@softologyComAu</a> and others.<br><a href="https://colab.research.google.com/drive/1N4UNSbtNMd31N_gAT9rAm8ZzPh62Y5ud" target="_blank">Hypertron v2</a> VQGAN model by <a href="https://github.com/Philipuss1" target="_blank">Philipuss</a> adapted from <a href="https://twitter.com/RiversHaveWings">@RiversHaveWings</a> with modifications by <a href="https://twitter.com/jbusted1">@jbusted1</a>, <a href="https://twitter.com/softologyComAu" target="_blank">@softologyComAu</a> and others. Original GAN+CLIP by <a href="https://twitter.com/advadnoun">@advadnoun</a>. <a href="https://github.com/openai/CLIP" target="_blank">CLIP</a> and <a href="https://github.com/openai/guided-diffusion" target="_blank">Guided Diffusion</a> were originally released by <a href="https://openai.com" target="_blank">OpenAI</a>. <a href="https://github.com/CompVis/taming-transformers" target="_blank">VQGAN</a> was released by <a href="https://github.com/CompVis" target="_blank">CompVis Heidelberg</a></small><br>
-	<small><small>application made with <a href="https://streamlit.io" target="_blank">streamlit</a></small></small>
+<p>IAlusion<br>
+
 </div>
 """
 st.markdown(footer, unsafe_allow_html=True)
