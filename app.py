@@ -853,7 +853,7 @@ with col_output2:
             gallery_text_area.write("Welcome back! Your last creation:")
             gallery_image_area.image(file_list)
             st.write(
-                f'<div class="bottom-line"><div class="row-widget stButton"><a kind="primary" class="css-1q8dd3e edgvbvh1" href="https://drive.google.com/drive/folders/{fid}" target="_blank">View your gallery on Google Drive</a></div><small>MindsEye is fully open source. We <b>do not collect prompts or results</b>. Your creations don\'t belong to MindsEye. Read our <a href="https://multimodal.art/mindseye#f-a-q" target="_blank">FAQ</a>.<br>Join our <a href="https://discord.gg/FsDBTE5BNx" target="_blank">Discord</a>! And if you enjoy using it, consider supporting us on <a href="https://www.patreon.com/multimodalart" target="_blank">Patreon</a> (I\'ll never lock any feature behind a paywall though)</small></div>',
+                f'<div class="bottom-line"><div class="row-widget stButton"><a kind="primary" class="css-1q8dd3e edgvbvh1" href="https://drive.google.com/drive/folders/{fid}" target="_blank">View your gallery on Google Drive</a></div><small>.</small></div>',
                 unsafe_allow_html=True,
             )
     else:
