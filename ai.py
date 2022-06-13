@@ -99,7 +99,7 @@ document.querySelector("colab-toolbar-button#connect").click()
 }
 setInterval(ClickConnect,60000)
 '''
-display(IPython.display.Javascript(js_code))
+
 
 # %%
 # !! {"metadata":{
