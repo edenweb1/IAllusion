@@ -114,7 +114,7 @@ st.write(
     unsafe_allow_html=True,
 )
 
-page_names = ["CLIP Guided Diffusion", "VQGAN+CLIP", "Latent Diffusion"]
+page_names = [ "Latent Diffusion","CLIP Guided Diffusion", "VQGAN+CLIP"]
 
 if "width" not in st.session_state:
     st.session_state["width"] = 512
